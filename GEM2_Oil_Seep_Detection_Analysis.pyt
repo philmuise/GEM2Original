@@ -40,29 +40,29 @@ from   condition_darkTargets import condition_darkTargets             # reload s
 # reload(mergeAreas)                                   # reload step 1
 # from   mergeAreas import mergeAreas             # reload step 2
 
-#import updateMasterGDB                                    # get module reference for reload
-#reload(updateMasterGDB)                                   # reload step 1
-#from updateMasterGDB import updateMasterGDB             # reload step 2
+import updateMasterGDB                                    # get module reference for reload
+reload(updateMasterGDB)                                   # reload step 1
+from updateMasterGDB import updateMasterGDB             # reload step 2
 
-#import temporalPersisDay                                    # get module reference for reload
-#reload(temporalPersisDay)                                   # reload step 1
-#from   temporalPersisDay import temporalPersisDay             # reload step 2
+import temporalPersisDay                                    # get module reference for reload
+reload(temporalPersisDay)                                   # reload step 1
+from   temporalPersisDay import temporalPersisDay             # reload step 2
 
-#import temporalPersisYear                                    # get module reference for reload
-#reload(temporalPersisYear)                                   # reload step 1
-#from   temporalPersisYear import temporalPersisYear             # reload step 2
-#
-#import temporalVisuals                                    # get module reference for reload
-#reload(temporalVisuals)                                   # reload step 1
-#from   temporalVisuals import temporalVisuals             # reload step 2
+import temporalPersisYear                                    # get module reference for reload
+reload(temporalPersisYear)                                   # reload step 1
+from   temporalPersisYear import temporalPersisYear             # reload step 2
 
-#import getChloro                                    # get module reference for reload
-#reload(getChloro)                                   # reload step 1
-#from   getChloro import getChloro             # reload step 2
+import temporalVisuals                                    # get module reference for reload
+reload(temporalVisuals)                                   # reload step 1
+from   temporalVisuals import temporalVisuals             # reload step 2
 
-#import applyChloro                                    # get module reference for reload
-#reload(applyChloro)                                   # reload step 1
-#from   applyChloro import applyChloro             # reload step 2
+import getChloro                                    # get module reference for reload
+reload(getChloro)                                   # reload step 1
+from   getChloro import getChloro             # reload step 2
+
+import applyChloro                                    # get module reference for reload
+reload(applyChloro)                                   # reload step 1
+from   applyChloro import applyChloro             # reload step 2
 
 class Toolbox(object):
     def __init__(self):
